@@ -1,0 +1,157 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR= ar$/;"	m
+AR	libfta/Makefile	/^AR= ar$/;"	m
+BONUS	Makefile	/^BONUS= ft_flags_bonus.o ft_itoa_base.o ft_parse_bonus.o ft_print_chrs_bonus.o \\$/;"	m
+BONUS	libfta/Makefile	/^BONUS = ft_lstnew.o ft_lstadd_front.o ft_lstsize.o ft_lstlast.o ft_lstadd_back.o \\$/;"	m
+CC	Makefile	/^CC= gcc $/;"	m
+CC	libfta/Makefile	/^CC= gcc $/;"	m
+FT_PRINTF_BONUS_H	ft_printf_bonus.h	/^# define FT_PRINTF_BONUS_H$/;"	d
+FT_PRINTF_H	ft_printf.h	/^# define FT_PRINTF_H$/;"	d
+LBASE	ft_printf.h	/^# define LBASE /;"	d
+LBASE	ft_printf_bonus.h	/^# define LBASE /;"	d
+LIBFT_H	libfta/libft.h	/^# define LIBFT_H$/;"	d
+MAND	Makefile	/^MAND= ft_flags.o ft_itoa_base.o ft_parse.o ft_print_chrs.o \\$/;"	m
+MAND	libfta/Makefile	/^MAND= ft_isalpha.o ft_isdigit.o ft_isalnum.o ft_isascii.o \\$/;"	m
+NAME	Makefile	/^NAME= libftprintf.a$/;"	m
+NAME	libfta/Makefile	/^NAME= libft.a$/;"	m
+OFLAGS	Makefile	/^OFLAGS = $/;"	m
+OFLAGS	libfta/Makefile	/^OFLAGS = $/;"	m
+SBASE	ft_printf.h	/^# define SBASE /;"	d
+SBASE	ft_printf_bonus.h	/^# define SBASE /;"	d
+SPECIFIER	ft_printf.h	/^# define SPECIFIER /;"	d
+SPECIFIER	ft_printf_bonus.h	/^# define SPECIFIER /;"	d
+TARGETS	Makefile	/^TARGETS = $(NAME)$/;"	m
+TARGETS	libfta/Makefile	/^TARGETS = $(NAME)$/;"	m
+__ft_itoa	libfta/ft_itoa.c	/^void	__ft_itoa(char *tmp, long ln)$/;"	f
+__ft_print_nbr	ft_print_nbr.c	/^static int	__ft_print_nbr(struct s_flag *f, char *nbr, int len)$/;"	f	file:
+__ft_print_nbr	ft_print_nbr_bonus.c	/^static int	__ft_print_nbr(struct s_flag *f, char *nbr, int len)$/;"	f	file:
+__ft_split	libfta/ft_split.c	/^char	**__ft_split(char **ret, char *line, char c)$/;"	f
+__ft_uitoa	libfta/ft_uitoa.c	/^static void	__ft_uitoa(char *tmp, unsigned long ln)$/;"	f	file:
+__isalpha	libfta/ft_isalnum.c	/^static int	__isalpha(int ch)$/;"	f	file:
+__isdigit	libfta/ft_isalnum.c	/^static int	__isdigit(int ch)$/;"	f	file:
+__isspace	libfta/ft_atoi.c	/^int	__isspace(char c)$/;"	f
+__reverse	libfta/ft_itoa.c	/^static void	__reverse(char *s)$/;"	f	file:
+__reverse	libfta/ft_uitoa.c	/^static void	__reverse(char *s)$/;"	f	file:
+__strcat	libfta/ft_strjoin.c	/^static char	*__strcat(char *dest, char const *src)$/;"	f	file:
+__swap	libfta/ft_itoa.c	/^static void	__swap(char *a, char *b)$/;"	f	file:
+__swap	libfta/ft_uitoa.c	/^static void	__swap(char *a, char *b)$/;"	f	file:
+content	libfta/libft.h	/^	void			*content;$/;"	m	struct:s_list
+ft_atoi	libfta/ft_atoi.c	/^int	ft_atoi(const char *str)$/;"	f
+ft_bzero	libfta/ft_bzero.c	/^void	ft_bzero(void *s, size_t len)$/;"	f
+ft_calloc	libfta/ft_calloc.c	/^void	*ft_calloc(size_t count, size_t size)$/;"	f
+ft_check_flag	ft_flags.c	/^int	ft_check_flag(struct s_flag *f)$/;"	f
+ft_check_flag	ft_flags_bonus.c	/^int	ft_check_flag(struct s_flag *f)$/;"	f
+ft_isalnum	libfta/ft_isalnum.c	/^int	ft_isalnum(int ch)$/;"	f
+ft_isalpha	libfta/ft_isalpha.c	/^int	ft_isalpha(int ch)$/;"	f
+ft_isascii	libfta/ft_isascii.c	/^int	ft_isascii(int ch)$/;"	f
+ft_isdigit	libfta/ft_isdigit.c	/^int	ft_isdigit(int ch)$/;"	f
+ft_isprint	libfta/ft_isprint.c	/^int	ft_isprint(int ch)$/;"	f
+ft_itoa	libfta/ft_itoa.c	/^char	*ft_itoa(long n)$/;"	f
+ft_itoa_base	ft_itoa_base.c	/^char	*ft_itoa_base(uintptr_t n, unsigned int nr_base, char is_x)$/;"	f
+ft_lstadd_back	libfta/ft_lstadd_back.c	/^void	ft_lstadd_back(t_list **lst, t_list *new)$/;"	f
+ft_lstadd_front	libfta/ft_lstadd_front.c	/^void	ft_lstadd_front(t_list **lst, t_list *new)$/;"	f
+ft_lstclear	libfta/ft_lstclear.c	/^void	ft_lstclear(t_list **lst, void (*del)(void *))$/;"	f
+ft_lstdelone	libfta/ft_lstdelone.c	/^void	ft_lstdelone(t_list *lst, void (*del)(void*))$/;"	f
+ft_lstiter	libfta/ft_lstiter.c	/^void	ft_lstiter(t_list *lst, void (*f)(void *))$/;"	f
+ft_lstlast	libfta/ft_lstlast.c	/^t_list	*ft_lstlast(t_list *lst)$/;"	f
+ft_lstmap	libfta/ft_lstmap.c	/^t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))$/;"	f
+ft_lstnew	libfta/ft_lstnew.c	/^t_list	*ft_lstnew(void *content)$/;"	f
+ft_lstsize	libfta/ft_lstsize.c	/^int	ft_lstsize(t_list *lst)$/;"	f
+ft_memchr	libfta/ft_memchr.c	/^void	*ft_memchr(void *s, int c, size_t len)$/;"	f
+ft_memcmp	libfta/ft_memcmp.c	/^int	ft_memcmp(const void *src, const void *cmp, size_t len)$/;"	f
+ft_memcpy	libfta/ft_memcpy.c	/^void	*ft_memcpy(void *dst, const void *src, size_t n)$/;"	f
+ft_memmove	libfta/ft_memmove.c	/^void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f
+ft_memset	libfta/ft_memset.c	/^void	*ft_memset(void *b, int c, size_t len)$/;"	f
+ft_parse_bonus	ft_parse.c	/^static void	ft_parse_bonus(char ch, struct s_flag *f)$/;"	f	file:
+ft_parse_bonus	ft_parse_bonus.c	/^static void	ft_parse_bonus(char ch, struct s_flag *f)$/;"	f	file:
+ft_parse_precision	ft_parse.c	/^static size_t	ft_parse_precision(char *str, va_list ap, struct s_flag *flag)$/;"	f	file:
+ft_parse_precision	ft_parse_bonus.c	/^static size_t	ft_parse_precision(char *str, va_list ap, struct s_flag *flag)$/;"	f	file:
+ft_parse_print	ft_parse.c	/^int	ft_parse_print(char	**line, va_list ap)$/;"	f
+ft_parse_print	ft_parse_bonus.c	/^int	ft_parse_print(char	**line, va_list ap)$/;"	f
+ft_parse_width	ft_parse.c	/^static size_t	ft_parse_width(char *str, va_list ap, struct s_flag *flag)$/;"	f	file:
+ft_parse_width	ft_parse_bonus.c	/^static size_t	ft_parse_width(char *str, va_list ap, struct s_flag *flag)$/;"	f	file:
+ft_plus	ft_print_nbr.c	/^static char	ft_plus(struct s_flag *f)$/;"	f	file:
+ft_plus	ft_print_nbr_bonus.c	/^static char	ft_plus(struct s_flag *f)$/;"	f	file:
+ft_print_c	ft_print_chrs.c	/^int	ft_print_c(struct s_flag *f, va_list ap)$/;"	f
+ft_print_c	ft_print_chrs_bonus.c	/^int	ft_print_c(struct s_flag *f, va_list ap)$/;"	f
+ft_print_d_i_u	ft_print_nbr.c	/^int	ft_print_d_i_u(struct s_flag *f, va_list ap)$/;"	f
+ft_print_d_i_u	ft_print_nbr_bonus.c	/^int	ft_print_d_i_u(struct s_flag *f, va_list ap)$/;"	f
+ft_print_format	ft_print_format.c	/^int	ft_print_format(struct s_flag *flag, va_list ap)$/;"	f
+ft_print_format	ft_print_format_bonus.c	/^int	ft_print_format(struct s_flag *flag, va_list ap)$/;"	f
+ft_print_hex	ft_print_hex.c	/^static int	ft_print_hex(struct s_flag *f, char *nbr, int n, int len)$/;"	f	file:
+ft_print_hex	ft_print_hex_bonus.c	/^static int	ft_print_hex(struct s_flag *f, char *nbr, int n, int len)$/;"	f	file:
+ft_print_nbr	ft_print_nbr.c	/^static int	ft_print_nbr(struct s_flag *f, char *nbr, char is_neg, int len)$/;"	f	file:
+ft_print_nbr	ft_print_nbr_bonus.c	/^static int	ft_print_nbr(struct s_flag *f, char *nbr, char is_neg, int len)$/;"	f	file:
+ft_print_p	ft_print_pointer.c	/^int	ft_print_p(struct s_flag *f, va_list ap)$/;"	f
+ft_print_p	ft_print_pointer_bonus.c	/^int	ft_print_p(struct s_flag *f, va_list ap)$/;"	f
+ft_print_pointer	ft_print_pointer.c	/^static int	ft_print_pointer(struct s_flag *f, char *nbr, int lenn)$/;"	f	file:
+ft_print_pointer	ft_print_pointer_bonus.c	/^static int	ft_print_pointer(struct s_flag *f, char *nbr, int lenn)$/;"	f	file:
+ft_print_s	ft_print_chrs.c	/^int	ft_print_s(struct s_flag *f, va_list ap)$/;"	f
+ft_print_s	ft_print_chrs_bonus.c	/^int	ft_print_s(struct s_flag *f, va_list ap)$/;"	f
+ft_print_x_x	ft_print_hex.c	/^int	ft_print_x_x(struct s_flag *f, va_list ap)$/;"	f
+ft_print_x_x	ft_print_hex_bonus.c	/^int	ft_print_x_x(struct s_flag *f, va_list ap)$/;"	f
+ft_printf	ft_printf.c	/^int	ft_printf(const char *format, ...)$/;"	f
+ft_printf	ft_printf_bonus.c	/^int	ft_printf(const char *format, ...)$/;"	f
+ft_putchar_fd	libfta/ft_putchar_fd.c	/^int	ft_putchar_fd(char c, int fd)$/;"	f
+ft_putchar_fd_iter	ft_utils.c	/^int	ft_putchar_fd_iter(int fd, char ch, int iter)$/;"	f
+ft_putchar_fd_iter	ft_utils_bonus.c	/^int	ft_putchar_fd_iter(int fd, char ch, int iter)$/;"	f
+ft_putendl_fd	libfta/ft_putendl_fd.c	/^int	ft_putendl_fd(char *s, int fd)$/;"	f
+ft_putnbr_fd	libfta/ft_putnbr_fd.c	/^int	ft_putnbr_fd(int nb, int fd)$/;"	f
+ft_putstr_fd	libfta/ft_putstr_fd.c	/^int	ft_putstr_fd(char *s, int fd)$/;"	f
+ft_putstrn_fd	ft_utils.c	/^int	ft_putstrn_fd(int fd, char *str, int size)$/;"	f
+ft_putstrn_fd	ft_utils_bonus.c	/^int	ft_putstrn_fd(int fd, char *str, int size)$/;"	f
+ft_sharp	ft_print_hex.c	/^static int	ft_sharp(struct s_flag *f)$/;"	f	file:
+ft_sharp	ft_print_hex_bonus.c	/^static int	ft_sharp(struct s_flag *f)$/;"	f	file:
+ft_split	libfta/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_strchr	libfta/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strdup	libfta/ft_strdup.c	/^char	*ft_strdup(const char *src)$/;"	f
+ft_striteri	libfta/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char*))$/;"	f
+ft_strjoin	libfta/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strlcat	libfta/ft_strlcat.c	/^size_t	ft_strlcat(char *dest, char *src, size_t size)$/;"	f
+ft_strlcpy	libfta/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dest, const char *src, size_t size)$/;"	f
+ft_strlen	libfta/ft_strlen.c	/^size_t	ft_strlen(const char *str)$/;"	f
+ft_strmapi	libfta/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strncmp	libfta/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strnstr	libfta/ft_strnstr.c	/^char	*ft_strnstr(const char *haystack, const char *needle, size_t len)$/;"	f
+ft_strrchr	libfta/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f
+ft_strtrim	libfta/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f
+ft_substr	libfta/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_tolower	libfta/ft_tolower.c	/^int	ft_tolower(int ch)$/;"	f
+ft_toupper	libfta/ft_toupper.c	/^int	ft_toupper(int ch)$/;"	f
+ft_uitoa	libfta/ft_uitoa.c	/^char	*ft_uitoa(unsigned int n)$/;"	f
+init_flag	ft_flags.c	/^void	init_flag(struct s_flag *flag)$/;"	f
+init_flag	ft_flags_bonus.c	/^void	init_flag(struct s_flag *flag)$/;"	f
+is_dot	ft_printf.h	/^	char	is_dot;$/;"	m	struct:s_flag
+is_dot	ft_printf_bonus.h	/^	char	is_dot;$/;"	m	struct:s_flag
+is_minus	ft_printf.h	/^	char	is_minus;$/;"	m	struct:s_flag
+is_minus	ft_printf_bonus.h	/^	char	is_minus;$/;"	m	struct:s_flag
+is_plus	ft_printf.h	/^	char	is_plus;$/;"	m	struct:s_flag
+is_plus	ft_printf_bonus.h	/^	char	is_plus;$/;"	m	struct:s_flag
+is_sharp	ft_printf.h	/^	char	is_sharp;$/;"	m	struct:s_flag
+is_sharp	ft_printf_bonus.h	/^	char	is_sharp;$/;"	m	struct:s_flag
+is_space	ft_printf.h	/^	char	is_space;$/;"	m	struct:s_flag
+is_space	ft_printf_bonus.h	/^	char	is_space;$/;"	m	struct:s_flag
+is_zero	ft_printf.h	/^	char	is_zero;$/;"	m	struct:s_flag
+is_zero	ft_printf_bonus.h	/^	char	is_zero;$/;"	m	struct:s_flag
+nbrlen	ft_itoa_base.c	/^static size_t	nbrlen(uint64_t n, unsigned int base)$/;"	f	file:
+neg_prec	ft_printf.h	/^	char	neg_prec;$/;"	m	struct:s_flag
+neg_prec	ft_printf_bonus.h	/^	char	neg_prec;$/;"	m	struct:s_flag
+next	libfta/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+precision	ft_printf.h	/^	int		precision;$/;"	m	struct:s_flag
+precision	ft_printf_bonus.h	/^	int		precision;$/;"	m	struct:s_flag
+s_flag	ft_printf.h	/^struct s_flag$/;"	s
+s_flag	ft_printf_bonus.h	/^struct s_flag$/;"	s
+s_list	libfta/libft.h	/^typedef struct s_list$/;"	s
+size_number	libfta/ft_itoa.c	/^size_t	size_number(long ln)$/;"	f
+size_number	libfta/ft_uitoa.c	/^static size_t	size_number(unsigned long ln)$/;"	f	file:
+specifer	ft_printf.h	/^	char	specifer;$/;"	m	struct:s_flag
+specifer	ft_printf_bonus.h	/^	char	specifer;$/;"	m	struct:s_flag
+strs_copy	libfta/ft_split.c	/^char	**strs_copy(char **tokens, int nr_tokens)$/;"	f
+t_list	libfta/libft.h	/^}					t_list;$/;"	t	typeref:struct:s_list
+width	ft_printf.h	/^	int		width;$/;"	m	struct:s_flag
+width	ft_printf_bonus.h	/^	int		width;$/;"	m	struct:s_flag

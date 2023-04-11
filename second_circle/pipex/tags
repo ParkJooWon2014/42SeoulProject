@@ -1,0 +1,130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADR	Makefile	/^ADR = .\/src\/$/;"	m
+AR	libfta/Makefile	/^AR= ar$/;"	m
+BONUS	Makefile	/^BONUS= $(NAME)$/;"	m
+BONUS	libfta/Makefile	/^BONUS = ft_lstnew.o ft_lstadd_front.o ft_lstsize.o ft_lstlast.o ft_lstadd_back.o \\$/;"	m
+BUFFER_SIZE	include/pipex_bonus.h	/^# define BUFFER_SIZE /;"	d
+B_SRC	Makefile	/^B_SRC = pipex_utils_bonus.o pipex_bonus.o error_utils_bonus.o get_next_line_bonus.o$/;"	m
+B_SRCS	Makefile	/^B_SRCS = ${addprefix ${ADR}, ${B_SRC}}$/;"	m
+CC	Makefile	/^CC= cc$/;"	m
+CC	libfta/Makefile	/^CC= cc $/;"	m
+IN	include/pipex.h	/^# define IN /;"	d
+IN	include/pipex_bonus.h	/^# define IN /;"	d
+INCMD_ERR	include/pipex.h	/^# define INCMD_ERR /;"	d
+INCMD_ERR	include/pipex_bonus.h	/^# define INCMD_ERR /;"	d
+INPUT_ERR	include/pipex.h	/^# define INPUT_ERR /;"	d
+INPUT_ERR	include/pipex_bonus.h	/^# define INPUT_ERR /;"	d
+LIBFTA	Makefile	/^LIBFTA = .\/libfta\/libft.a$/;"	m
+LIBFT_H	libfta/libft.h	/^# define LIBFT_H$/;"	d
+MAND	libfta/Makefile	/^MAND= ft_isalpha.o ft_isdigit.o ft_isalnum.o ft_isascii.o \\$/;"	m
+NAME	Makefile	/^NAME= pipex$/;"	m
+NAME	libfta/Makefile	/^NAME= libft.a$/;"	m
+OFLAGS	Makefile	/^OFLAGS = $/;"	m
+OFLAGS	libfta/Makefile	/^OFLAGS = $/;"	m
+OUT	include/pipex.h	/^# define OUT /;"	d
+OUT	include/pipex_bonus.h	/^# define OUT /;"	d
+OUTCMD_ERR	include/pipex.h	/^# define OUTCMD_ERR /;"	d
+OUTCMD_ERR	include/pipex_bonus.h	/^# define OUTCMD_ERR /;"	d
+OUTPUT_ERR	include/pipex.h	/^# define OUTPUT_ERR /;"	d
+OUTPUT_ERR	include/pipex_bonus.h	/^# define OUTPUT_ERR /;"	d
+PIPEX_BONUS_H	include/pipex_bonus.h	/^# define PIPEX_BONUS_H$/;"	d
+PIPEX_H	include/pipex.h	/^# define PIPEX_H$/;"	d
+SRC	Makefile	/^SRC = pipex_utils.o pipex.o error_utils.o$/;"	m
+SRCS	Makefile	/^SRCS = ${addprefix ${ADR}, ${SRC}}$/;"	m
+TARGETS	libfta/Makefile	/^TARGETS = $(NAME)$/;"	m
+__ft_itoa	libfta/ft_itoa.c	/^void	__ft_itoa(char *tmp, long ln)$/;"	f
+__ft_parse	libfta/ft_parse.c	/^static int	__ft_parse(char **ret, char **line, int *nr_tokens, char del)$/;"	f	file:
+__ft_split	libfta/ft_split.c	/^char	**__ft_split(char **ret, char *line, char c)$/;"	f
+__here_doc	src/pipex_bonus.c	/^static void	__here_doc(int *fd, char *limiter)$/;"	f	file:
+__isalpha	libfta/ft_isalnum.c	/^static int	__isalpha(int ch)$/;"	f	file:
+__isdigit	libfta/ft_isalnum.c	/^static int	__isdigit(int ch)$/;"	f	file:
+__isspace	libfta/ft_atoi.c	/^int	__isspace(char c)$/;"	f
+__reverse	libfta/ft_itoa.c	/^static void	__reverse(char *s)$/;"	f	file:
+__strcat	libfta/ft_strjoin.c	/^static char	*__strcat(char *dest, char const *src)$/;"	f	file:
+__swap	libfta/ft_itoa.c	/^static void	__swap(char *a, char *b)$/;"	f	file:
+content	libfta/libft.h	/^	void			*content;$/;"	m	struct:s_list
+exec_cmd	src/pipex_utils.c	/^int	exec_cmd(char *cmd, char **paths, char **envp, int type)$/;"	f
+exec_cmd	src/pipex_utils_bonus.c	/^int	exec_cmd(char *cmd, char **paths, char **envp, int type)$/;"	f
+free_path	src/pipex.c	/^static void	free_path(char **path)$/;"	f	file:
+free_path	src/pipex_bonus.c	/^static void	free_path(char **path, int in, int out)$/;"	f	file:
+ft_atoi	libfta/ft_atoi.c	/^int	ft_atoi(const char *str)$/;"	f
+ft_bzero	libfta/ft_bzero.c	/^void	ft_bzero(void *s, size_t len)$/;"	f
+ft_calloc	libfta/ft_calloc.c	/^void	*ft_calloc(size_t count, size_t size)$/;"	f
+ft_change_cmd_del	libfta/ft_parse.c	/^static void	ft_change_cmd_del(char *cmd, char *is)$/;"	f	file:
+ft_change_cmd_not_del	libfta/ft_parse.c	/^static void	ft_change_cmd_not_del(char **ret, char *cmd, int *nr, char *is)$/;"	f	file:
+ft_get_cmd	src/pipex_utils.c	/^static char	*ft_get_cmd(char **paths, char *cmd)$/;"	f	file:
+ft_get_cmd	src/pipex_utils_bonus.c	/^static char	*ft_get_cmd(char **paths, char *cmd)$/;"	f	file:
+ft_get_next_line	src/get_next_line_bonus.c	/^static char	*ft_get_next_line(char **line)$/;"	f	file:
+ft_get_paths	src/pipex_utils.c	/^char	**ft_get_paths(char *envp[])$/;"	f
+ft_get_paths	src/pipex_utils_bonus.c	/^char	**ft_get_paths(char *envp[])$/;"	f
+ft_isalnum	libfta/ft_isalnum.c	/^int	ft_isalnum(int ch)$/;"	f
+ft_isalpha	libfta/ft_isalpha.c	/^int	ft_isalpha(int ch)$/;"	f
+ft_isascii	libfta/ft_isascii.c	/^int	ft_isascii(int ch)$/;"	f
+ft_isdigit	libfta/ft_isdigit.c	/^int	ft_isdigit(int ch)$/;"	f
+ft_isprint	libfta/ft_isprint.c	/^int	ft_isprint(int ch)$/;"	f
+ft_isspace	libfta/ft_isspace.c	/^int	ft_isspace(char ch)$/;"	f
+ft_itoa	libfta/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
+ft_lstadd_back	libfta/ft_lstadd_back.c	/^void	ft_lstadd_back(t_list **lst, t_list *new)$/;"	f
+ft_lstadd_front	libfta/ft_lstadd_front.c	/^void	ft_lstadd_front(t_list **lst, t_list *new)$/;"	f
+ft_lstclear	libfta/ft_lstclear.c	/^void	ft_lstclear(t_list **lst, void (*del)(void *))$/;"	f
+ft_lstdelone	libfta/ft_lstdelone.c	/^void	ft_lstdelone(t_list *lst, void (*del)(void*))$/;"	f
+ft_lstiter	libfta/ft_lstiter.c	/^void	ft_lstiter(t_list *lst, void (*f)(void *))$/;"	f
+ft_lstlast	libfta/ft_lstlast.c	/^t_list	*ft_lstlast(t_list *lst)$/;"	f
+ft_lstmap	libfta/ft_lstmap.c	/^t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))$/;"	f
+ft_lstnew	libfta/ft_lstnew.c	/^t_list	*ft_lstnew(void *content)$/;"	f
+ft_lstsize	libfta/ft_lstsize.c	/^int	ft_lstsize(t_list *lst)$/;"	f
+ft_memchr	libfta/ft_memchr.c	/^void	*ft_memchr(void *s, int c, size_t len)$/;"	f
+ft_memcmp	libfta/ft_memcmp.c	/^int	ft_memcmp(const void *src, const void *cmp, size_t len)$/;"	f
+ft_memcpy	libfta/ft_memcpy.c	/^void	*ft_memcpy(void *dst, const void *src, size_t n)$/;"	f
+ft_memmove	libfta/ft_memmove.c	/^void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f
+ft_memset	libfta/ft_memset.c	/^void	*ft_memset(void *b, int c, size_t len)$/;"	f
+ft_open_file	src/pipex_utils.c	/^int	ft_open_file(char *path, int flag)$/;"	f
+ft_open_file	src/pipex_utils_bonus.c	/^int	ft_open_file(char *path, int flag)$/;"	f
+ft_parse	libfta/ft_parse.c	/^char	**ft_parse(char *cmd)$/;"	f
+ft_putchar_fd	libfta/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f
+ft_putendl_fd	libfta/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/;"	f
+ft_putnbr_fd	libfta/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int nb, int fd)$/;"	f
+ft_putstr_fd	libfta/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f
+ft_read_file	src/get_next_line_bonus.c	/^static char	*ft_read_file(int fd, char **back_up, char *buffer)$/;"	f	file:
+ft_split	libfta/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_strchr	libfta/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strdup	libfta/ft_strdup.c	/^char	*ft_strdup(const char *src)$/;"	f
+ft_striteri	libfta/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char*))$/;"	f
+ft_strjoin	libfta/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strlcat	libfta/ft_strlcat.c	/^size_t	ft_strlcat(char *dest, char *src, size_t size)$/;"	f
+ft_strlcpy	libfta/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dest, const char *src, size_t size)$/;"	f
+ft_strlen	libfta/ft_strlen.c	/^size_t	ft_strlen(const char *str)$/;"	f
+ft_strmapi	libfta/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strncmp	libfta/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strnstr	libfta/ft_strnstr.c	/^char	*ft_strnstr(const char *haystack, const char *needle, size_t len)$/;"	f
+ft_strrchr	libfta/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f
+ft_strtrim	libfta/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f
+ft_substr	libfta/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_tolower	libfta/ft_tolower.c	/^int	ft_tolower(int ch)$/;"	f
+ft_toupper	libfta/ft_toupper.c	/^int	ft_toupper(int ch)$/;"	f
+get_next_line	src/get_next_line_bonus.c	/^char	*get_next_line(int fd)$/;"	f
+here_doc	src/pipex_bonus.c	/^static void	here_doc(int *outfile, char *file, char *limiter)$/;"	f	file:
+incre_gal	libfta/ft_parse.c	/^static void	incre_gal(char **ch, int *is_gal)$/;"	f	file:
+main	src/pipex.c	/^int	main(int ac, char *av[], char *envp[])$/;"	f
+main	src/pipex_bonus.c	/^int	main(int ac, char *av[], char *envp[])$/;"	f
+mand	src/pipex_bonus.c	/^static void	mand(int *infile, int *outfile, int ac, char *av[])$/;"	f	file:
+next	libfta/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+perror_cmd	src/error_utils.c	/^static void	perror_cmd(char *cmd)$/;"	f	file:
+perror_cmd	src/error_utils_bonus.c	/^static void	perror_cmd(char *cmd)$/;"	f	file:
+perror_exit	src/error_utils.c	/^void	perror_exit(int idx, char *cmd)$/;"	f
+perror_exit	src/error_utils_bonus.c	/^void	perror_exit(int idx, char *cmd)$/;"	f
+perror_input	src/error_utils.c	/^static void	perror_input(char *file, char *cmd)$/;"	f	file:
+perror_input	src/error_utils_bonus.c	/^static void	perror_input(char *file, char *cmd)$/;"	f	file:
+perror_output	src/error_utils.c	/^static void	perror_output(void)$/;"	f	file:
+perror_output	src/error_utils_bonus.c	/^static void	perror_output(void)$/;"	f	file:
+redir	src/pipex_utils.c	/^int	redir(char *cmd, char **paths, char **envp, int fd)$/;"	f
+redir	src/pipex_utils_bonus.c	/^int	redir(char *cmd, char **paths, char **envp, int fd)$/;"	f
+s_list	libfta/libft.h	/^typedef struct s_list$/;"	s
+size_number	libfta/ft_itoa.c	/^size_t	size_number(long ln)$/;"	f
+strs_copy	libfta/ft_split.c	/^char	**strs_copy(char **tokens, int nr_tokens)$/;"	f
+t_list	libfta/libft.h	/^}					t_list;$/;"	t	typeref:struct:s_list

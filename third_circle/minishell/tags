@@ -1,0 +1,288 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARG_CAPITAL	ft_mylibft/printf/ft_printf.h	/^	ARG_CAPITAL = 1 << 7,$/;"	e	enum:e_args
+ARG_LJUSTIFY	ft_mylibft/printf/ft_printf.h	/^	ARG_LJUSTIFY = 1 << 1,$/;"	e	enum:e_args
+ARG_PLUS	ft_mylibft/printf/ft_printf.h	/^	ARG_PLUS = 1 << 4,$/;"	e	enum:e_args
+ARG_PRECISION	ft_mylibft/printf/ft_printf.h	/^	ARG_PRECISION = 1 << 6,$/;"	e	enum:e_args
+ARG_SHARP	ft_mylibft/printf/ft_printf.h	/^	ARG_SHARP = 1 << 3,$/;"	e	enum:e_args
+ARG_SPACE	ft_mylibft/printf/ft_printf.h	/^	ARG_SPACE = 1 << 5,$/;"	e	enum:e_args
+ARG_UNSIGNED	ft_mylibft/printf/ft_printf.h	/^	ARG_UNSIGNED = 1 << 8,$/;"	e	enum:e_args
+ARG_ZEROFILL	ft_mylibft/printf/ft_printf.h	/^	ARG_ZEROFILL = 1 << 2,$/;"	e	enum:e_args
+ASTREE_H	parse/astree.h	/^# define ASTREE_H$/;"	d
+BNAME	Makefile	/^BNAME = minishell_bonus$/;"	m
+BUFFER_SIZE	ft_mylibft/gnl/get_next_line.h	/^#  define BUFFER_SIZE /;"	d
+BUF_SIZE	parse/types.h	/^# define BUF_SIZE /;"	d
+BUILTIN_FOLDER	Makefile	/^BUILTIN_FOLDER = builtin\/$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -Wextra -Werror -g3 -ggdb$/;"	m
+CFLAGS	ft_mylibft/Makefile	/^CFLAGS = -Wall -Wextra -Werror$/;"	m
+CMD	parse/astree.h	/^	CMD,$/;"	e	enum:e_type
+DELTOKEN	parse/parse.h	/^# define DELTOKEN /;"	d
+DOUBLE	builtin/ft_builtin_header.h	/^	DOUBLE$/;"	e	enum:e_parser
+ENVP	parse/types.h	/^# define ENVP /;"	d
+ENV_START	builtin/ft_builtin_header.h	/^	ENV_START,$/;"	e	enum:e_parser
+FLAG_NEGATIVE	ft_mylibft/printf/ft_printf.h	/^	FLAG_NEGATIVE = 1 << 9,$/;"	e	enum:e_args
+FLAG_STRING	ft_mylibft/printf/ft_printf.h	/^	FLAG_STRING = 1 << 10$/;"	e	enum:e_args
+FT_BUILTIN_HEADER_H	builtin/ft_builtin_header.h	/^# define FT_BUILTIN_HEADER_H$/;"	d
+FT_LIBFT_H	ft_mylibft/libft/ft_libft.h	/^# define FT_LIBFT_H$/;"	d
+FT_PRINTF_H	ft_mylibft/printf/ft_printf.h	/^# define FT_PRINTF_H$/;"	d
+GET_NEXT_LINE_H	ft_mylibft/gnl/get_next_line.h	/^# define GET_NEXT_LINE_H$/;"	d
+LIBFT	Makefile	/^LIBFT = ft_mylibft\/libft.a$/;"	m
+LIBFT_H	ft_mylibft/libft.h	/^# define LIBFT_H$/;"	d
+LIBFT_SRCS	Makefile	/^LIBFT_SRCS = ft_mylibft$/;"	m
+MAIN	Makefile	/^MAIN = ft_main.c ft_envp.c ft_signal.c$/;"	m
+MINISHELL	parse/minishell.h	/^# define MINISHELL /;"	d
+MINISHELL_H	parse/minishell.h	/^# define MINISHELL_H$/;"	d
+NAME	Makefile	/^ 	NAME = minishell_bonus$/;"	m
+NAME	Makefile	/^NAME = minishell$/;"	m
+NAME	ft_mylibft/Makefile	/^NAME = libft.a$/;"	m
+NON_PIPE	parse/astree.h	/^	NON_PIPE,$/;"	e	enum:e_type
+NORMAL	builtin/ft_builtin_header.h	/^	NORMAL,$/;"	e	enum:e_parser
+PARSE_FOLDER	Makefile	/^PARSE_FOLDER = parse\/$/;"	m
+PARSE_H	parse/parse.h	/^# define PARSE_H$/;"	d
+PIPE	parse/astree.h	/^	PIPE,$/;"	e	enum:e_type
+REDIRECT	parse/astree.h	/^	REDIRECT,$/;"	e	enum:e_type
+REDIRECTS	parse/astree.h	/^	REDIRECTS,$/;"	e	enum:e_type
+ROOT	parse/astree.h	/^	ROOT,$/;"	e	enum:e_type
+R_APPEND	builtin/ft_builtin_header.h	/^	R_APPEND,$/;"	e	enum:e_redirect
+R_HERE_DOC	builtin/ft_builtin_header.h	/^	R_HERE_DOC$/;"	e	enum:e_redirect
+R_INPUT	builtin/ft_builtin_header.h	/^	R_INPUT,$/;"	e	enum:e_redirect
+R_NORMAL	builtin/ft_builtin_header.h	/^	R_NORMAL,$/;"	e	enum:e_redirect
+R_OUTPUT	builtin/ft_builtin_header.h	/^	R_OUTPUT,$/;"	e	enum:e_redirect
+SIMPLE_CMD	parse/astree.h	/^	SIMPLE_CMD,$/;"	e	enum:e_type
+SINGLE	builtin/ft_builtin_header.h	/^	SINGLE,$/;"	e	enum:e_parser
+SRCS	ft_mylibft/Makefile	/^SRCS = gnl\/get_next_line_utils.c gnl\/get_next_line.c \\$/;"	m
+SRCS_BUILTIN	Makefile	/^SRCS_BUILTIN = ft_unset.c ft_quoteparse1.c ft_quoteparse2.c ft_executer.c \\$/;"	m
+SRCS_PARSE	Makefile	/^SRCS_PARSE = astree.c astree_utils.c ft_free.c ft_str_utils.c \\$/;"	m
+TYPES_H	parse/types.h	/^# define TYPES_H$/;"	d
+__CPPFLAGS	Makefile	/^	__CPPFLAGS="-I\/$(HOME)\/.brew\/opt\/readline\/include"$/;"	m
+__CPPFLAGS	Makefile	/^	__CPPFLAGS="-I\/opt\/homebrew\/opt\/readline\/include"$/;"	m
+__LDFLAGS	Makefile	/^	__LDFLAGS="-L$(HOME)\/.brew\/opt\/readline\/lib"$/;"	m
+__LDFLAGS	Makefile	/^	__LDFLAGS="-L\/opt\/homebrew\/opt\/readline\/lib"$/;"	m
+__astree_insert_redir	parse/astree_utils.c	/^static void	__astree_insert_redir(struct s_node *r, struct s_node *node,$/;"	f	file:
+__do_node	parse/get_tokens.c	/^static int	__do_node(struct s_node *root)$/;"	f	file:
+__get_tokens	parse/get_tokens.c	/^static void	__get_tokens(struct s_node **tree)$/;"	f	file:
+__get_tree	parse/do_cmds.c	/^static struct s_node	*__get_tree(struct s_node *root, char **tokens)$/;"	f	file:
+__make_pipe	builtin/ft_pipe.c	/^static int	__make_pipe(struct s_node *node, int *fd)$/;"	f	file:
+__max	ft_mylibft/printf/ft_printf_utils.c	/^int	__max(int a, int b)$/;"	f
+__min	ft_mylibft/libft/ft_string3.c	/^static size_t	__min(size_t a, size_t b)$/;"	f	file:
+__parse_tokens	parse/parse_tokens.c	/^static void	__parse_tokens(char **ret, char *cmd, int nr_tokens)$/;"	f	file:
+__redirection	builtin/ft_make_redirection.c	/^static int	__redirection(char *target, int type, char **node_line, int here)$/;"	f	file:
+__redirection_heredoc	builtin/ft_make_redirection.c	/^static int	__redirection_heredoc(const char *limiter, char **node_line)$/;"	f	file:
+__redirection_input	builtin/ft_make_redirection.c	/^static int	__redirection_input(char *target, int type)$/;"	f	file:
+__redirection_output	builtin/ft_make_redirection.c	/^static int	__redirection_output(char *target, int append)$/;"	f	file:
+__set_node_pipe	parse/astree.c	/^static void	__set_node_pipe(struct s_node *node, int *is_in_pipe, int *fd)$/;"	f	file:
+_get_length	ft_mylibft/libft/ft_conversion.c	/^int	_get_length(long long n)$/;"	f
+alloc_stack	parse/parse_parn.c	/^static int	*alloc_stack(int lens)$/;"	f	file:
+append_new	builtin/ft_export.c	/^static int	append_new(char *s, char *target)$/;"	f	file:
+astree_init	parse/astree.c	/^void	astree_init(struct s_node *root)$/;"	f
+astree_insert_node	parse/astree_utils.c	/^int	astree_insert_node(struct s_node *root, char *line, char type)$/;"	f
+astree_insert_pipe	parse/astree_utils.c	/^static int	astree_insert_pipe(struct s_node *root)$/;"	f	file:
+astree_insert_redir	parse/astree_utils.c	/^static int	astree_insert_redir(struct s_node *root, char *line)$/;"	f	file:
+astree_insert_scmd	parse/astree_utils.c	/^static int	astree_insert_scmd(struct s_node *root, char *line)$/;"	f	file:
+builtin_executer	builtin/ft_executer.c	/^int	builtin_executer(struct s_node *node, char *s, int is_in_pipe)$/;"	f
+cd	builtin/ft_cd.c	/^int	cd(char **s)$/;"	f
+char_check	ft_mylibft/libft/ft_string3.c	/^static int	char_check(const char c, char *set)$/;"	f	file:
+check_already_exist	builtin/ft_unset.c	/^static int	check_already_exist(char *s)$/;"	f	file:
+check_pattern	builtin/ft_wildcardparse.c	/^static int	check_pattern(int idx, char *str, char *target)$/;"	f	file:
+check_pipe	parse/ft_check_tokens.c	/^int	check_pipe(char **lines)$/;"	f
+check_redirect	builtin/ft_check_redirect.c	/^int	check_redirect(char **parsed, struct s_node *node, int here)$/;"	f
+check_tokens	parse/parse_tokens.c	/^static int	check_tokens(char **tokens)$/;"	f	file:
+check_wildcard	builtin/ft_wildcardparse.c	/^static int	check_wildcard(char *str, int *ret)$/;"	f	file:
+chg_gal	parse/parse_parn.c	/^static void	chg_gal(int *is_gal, char *cmd)$/;"	f	file:
+cmd	parse/astree.h	/^	char			**cmd; \/\/ ls\/-al\/$/;"	m	struct:s_node
+cmgxg	parse/parse_cmd.c	/^static void	cmgxg(int *is_gal, char *cmd)$/;"	f	file:
+content	ft_mylibft/libft/ft_libft.h	/^	void			*content;$/;"	m	struct:s_list
+count_lst	builtin/ft_reorder_parsed.c	/^static size_t	count_lst(t_list *lst)$/;"	f	file:
+custom_atoi_hex	ft_mylibft/printf/ft_printf_utils.c	/^void	custom_atoi_hex(int flag, char *tmp, int len, size_t num)$/;"	f
+custom_atoi_udec	ft_mylibft/printf/ft_printf_utils.c	/^void	custom_atoi_udec(char *tmp, int len, unsigned int num)$/;"	f
+delete_env	builtin/ft_unset.c	/^static int	delete_env(char *s)$/;"	f	file:
+delete_fd	ft_mylibft/gnl/get_next_line.c	/^static char	*delete_fd(int fd, t_fd_list **lst)$/;"	f	file:
+depth	parse/astree.h	/^	size_t			depth; \/\/ pipe \/\/$/;"	m	struct:s_node
+do_cmd_token	parse/do_cmds.c	/^void	do_cmd_token(struct s_node *node, int is_in_pipe, int ret)$/;"	f
+dummy_parsed	builtin/ft_quoteparse2.c	/^char	**dummy_parsed(char **target)$/;"	f
+dummy_string	builtin/ft_builtin_utils.c	/^char	*dummy_string(void)$/;"	f
+e	builtin/ft_builtin_header.h	/^	int		e;$/;"	m	struct:s_parser
+e_args	ft_mylibft/printf/ft_printf.h	/^enum	e_args$/;"	g
+e_parser	builtin/ft_builtin_header.h	/^enum e_parser$/;"	g
+e_redirect	builtin/ft_builtin_header.h	/^enum e_redirect$/;"	g
+e_type	parse/astree.h	/^enum e_type{$/;"	g
+echo	builtin/ft_echo.c	/^int	echo(char **s)$/;"	f
+env	builtin/ft_builtin_header.h	/^	char	*env;$/;"	m	struct:s_get_env
+env	builtin/ft_env.c	/^int	env(char **s)$/;"	f
+env_fd	builtin/ft_builtin_header.h	/^	int		env_fd;$/;"	m	struct:s_get_env
+error_handling	builtin/ft_error.c	/^int	error_handling(char *progname, char *custom_msg, char *path)$/;"	f
+exec	builtin/ft_executer.c	/^int	exec(char **parsed, struct s_node *node, int is_in_pipe)$/;"	f
+exec	builtin/ft_fork_execve.c	/^static void	exec(char **args, char **envp)$/;"	f	file:
+exit_code_export	builtin/ft_executer.c	/^int	exit_code_export(int ret)$/;"	f
+expend_concat	builtin/ft_quoteparse1.c	/^void	expend_concat(char *s, t_parser *st, int type)$/;"	f
+expend_env	builtin/ft_quoteparse1.c	/^char	*expend_env(char *s)$/;"	f
+export	builtin/ft_export.c	/^int	export(char **s)$/;"	f
+extract_lst	builtin/ft_reorder_parsed.c	/^static char	**extract_lst(t_list *lst, size_t len)$/;"	f	file:
+fd	ft_mylibft/gnl/get_next_line.h	/^	int					fd;$/;"	m	struct:s_fd_list
+find_fd	ft_mylibft/gnl/get_next_line.c	/^static t_fd_list	*find_fd(int fd, t_fd_list **lst)$/;"	f	file:
+find_next	builtin/ft_cd.c	/^static size_t	find_next(char **s)$/;"	f	file:
+find_path	builtin/ft_fork_execve.c	/^static char	*find_path(char *target)$/;"	f	file:
+fork_execve	builtin/ft_fork_execve.c	/^int	fork_execve(char **parsed)$/;"	f
+free_all	ft_mylibft/libft/ft_split.c	/^static char	**free_all(char **ret, size_t cur, char *s_cpy)$/;"	f	file:
+free_envlist	builtin/ft_env.c	/^static int	free_envlist(t_list *envlist)$/;"	f	file:
+free_node_line	parse/ft_free.c	/^void	free_node_line(char **node_line)$/;"	f
+free_nodes	ft_mylibft/libft/ft_list2.c	/^static void	free_nodes(t_list *dummy, void (*del)(void *))$/;"	f	file:
+free_parsed	builtin/ft_executer.c	/^int	free_parsed(char **parsed)$/;"	f
+free_tokens	parse/ft_free.c	/^void	free_tokens(char **tokens)$/;"	f
+free_tree	parse/ft_free.c	/^void	free_tree(struct s_node *node)$/;"	f
+free_trees	parse/ft_free.c	/^void	free_trees(struct s_node **trees)$/;"	f
+ft_alloc_node	parse/astree.c	/^struct s_node	*ft_alloc_node(char *line, char type, struct s_node *root)$/;"	f
+ft_atoi	ft_mylibft/libft/ft_conversion.c	/^int	ft_atoi(const char *str)$/;"	f
+ft_atoi_check	ft_mylibft/libft/ft_conversion.c	/^int	ft_atoi_check(const char *str, int *chk)$/;"	f
+ft_bzero	ft_mylibft/libft/ft_memory2.c	/^void	ft_bzero(void *s, size_t n)$/;"	f
+ft_calloc	ft_mylibft/libft/ft_memory2.c	/^void	*ft_calloc(size_t count, size_t size)$/;"	f
+ft_custom_atoi	ft_mylibft/printf/ft_printf_parse.c	/^static int	ft_custom_atoi(char **c, int *argu_len)$/;"	f	file:
+ft_custom_strjoin	ft_mylibft/gnl/get_next_line_utils.c	/^char	*ft_custom_strjoin(char *s1, char *buf, int rd_siz)$/;"	f
+ft_custom_substr	ft_mylibft/gnl/get_next_line_utils.c	/^char	*ft_custom_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_exit	builtin/ft_exit.c	/^int	ft_exit(char **s)$/;"	f
+ft_fprintf	ft_mylibft/printf/ft_printf_main.c	/^int	ft_fprintf(int fd, const char *str, ...)$/;"	f
+ft_get_cmd_token	parse/astree.c	/^struct s_node	*ft_get_cmd_token(struct s_node *root)$/;"	f
+ft_isalnum	builtin/ft_quoteparse1.c	/^static int	ft_isalnum(int c)$/;"	f	file:
+ft_isspace	ft_mylibft/libft/ft_conversion.c	/^int	ft_isspace(int c)$/;"	f
+ft_itoa	ft_mylibft/libft/ft_conversion.c	/^char	*ft_itoa(int n)$/;"	f
+ft_lstadd_back	ft_mylibft/libft/ft_list1.c	/^void	ft_lstadd_back(t_list **lst, t_list *new)$/;"	f
+ft_lstadd_front	ft_mylibft/libft/ft_list1.c	/^void	ft_lstadd_front(t_list **lst, t_list *new)$/;"	f
+ft_lstclear	ft_mylibft/libft/ft_list1.c	/^void	ft_lstclear(t_list **lst, void (*del)(void *))$/;"	f
+ft_lstdelone	ft_mylibft/libft/ft_list1.c	/^void	ft_lstdelone(t_list *lst, void (*del)(void *))$/;"	f
+ft_lstiter	ft_mylibft/libft/ft_list1.c	/^void	ft_lstiter(t_list *lst, void (*f)(void *))$/;"	f
+ft_lstlast	ft_mylibft/libft/ft_list2.c	/^t_list	*ft_lstlast(t_list *lst)$/;"	f
+ft_lstmap	ft_mylibft/libft/ft_list2.c	/^t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))$/;"	f
+ft_lstnew	ft_mylibft/libft/ft_list2.c	/^t_list	*ft_lstnew(void *content)$/;"	f
+ft_lstsize	ft_mylibft/libft/ft_list2.c	/^int	ft_lstsize(t_list *lst)$/;"	f
+ft_max	ft_mylibft/libft/ft_compare.c	/^long	ft_max(long a, long b)$/;"	f
+ft_memchr	ft_mylibft/libft/ft_memory1.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
+ft_memcmp	ft_mylibft/libft/ft_memory1.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+ft_memcpy	ft_mylibft/libft/ft_memory1.c	/^void	*ft_memcpy(void *dst, const void *src, size_t n)$/;"	f
+ft_memmove	ft_mylibft/gnl/get_next_line_utils.c	/^static void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f	file:
+ft_memmove	ft_mylibft/libft/ft_memory1.c	/^void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f
+ft_memset	ft_mylibft/libft/ft_memory1.c	/^void	*ft_memset(void *b, int c, size_t len)$/;"	f
+ft_min	ft_mylibft/libft/ft_compare.c	/^long	ft_min(long a, long b)$/;"	f
+ft_pre_executer	builtin/ft_pre_executer.c	/^int	ft_pre_executer(char *s, struct s_node *node)$/;"	f
+ft_printf	ft_mylibft/printf/ft_printf_main.c	/^int	ft_printf(const char *str, ...)$/;"	f
+ft_split	ft_mylibft/libft/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_sstrlen	parse/get_tokens.c	/^static size_t	ft_sstrlen(char **strs)$/;"	f	file:
+ft_strchr	ft_mylibft/libft/ft_string1.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strdup	ft_mylibft/libft/ft_string1.c	/^char	*ft_strdup(const char *s1)$/;"	f
+ft_strjoin	ft_mylibft/libft/ft_string1.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strlcat	ft_mylibft/libft/ft_string1.c	/^size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)$/;"	f
+ft_strlcpy	ft_mylibft/libft/ft_string2.c	/^size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)$/;"	f
+ft_strlen	ft_mylibft/gnl/get_next_line_utils.c	/^static size_t	ft_strlen(const char *s)$/;"	f	file:
+ft_strlen	ft_mylibft/libft/ft_string2.c	/^size_t	ft_strlen(const char *s)$/;"	f
+ft_strmapi	ft_mylibft/libft/ft_string2.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strncmp	ft_mylibft/libft/ft_string2.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strndup	parse/ft_str_utils.c	/^char	*ft_strndup(char *line, size_t pos)$/;"	f
+ft_strnstr	ft_mylibft/libft/ft_string2.c	/^char	*ft_strnstr(const char *haystack, const char *needle, size_t len)$/;"	f
+ft_strstrim	parse/ft_str_utils.c	/^char	*ft_strstrim(char *line)$/;"	f
+ft_strtrim	ft_mylibft/libft/ft_string3.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f
+ft_substr	ft_mylibft/libft/ft_string3.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_vfprintf	ft_mylibft/printf/ft_printf_main.c	/^int	ft_vfprintf(int fd, const char *str, va_list *vl)$/;"	f
+g_exit_code	builtin/ft_builtin_header.h	/^int	g_exit_code;$/;"	v
+get_check_line	builtin/ft_get_input_line.c	/^static int	get_check_line(struct s_node *node, int *fd)$/;"	f	file:
+get_cmd	parse/parse_cmd.c	/^char	*get_cmd(char **line)$/;"	f
+get_cur	ft_mylibft/libft/ft_string3.c	/^static void	get_cur(size_t *lcur, size_t *rcur, char const *s1, char const *set)$/;"	f	file:
+get_env	builtin/ft_builtin_utils.c	/^char	*get_env(char *target)$/;"	f
+get_env_path	ft_envp.c	/^char	*get_env_path(void)$/;"	f
+get_envp_ptr	ft_envp.c	/^char	**get_envp_ptr(void)$/;"	f
+get_fd	ft_envp.c	/^static int	get_fd(char *file, int flag)$/;"	f	file:
+get_file_name	parse/parse_cmd.c	/^static char	*get_file_name(char *cmd, char **line)$/;"	f	file:
+get_heredoc_path	builtin/ft_builtin_utils.c	/^char	*get_heredoc_path(void)$/;"	f
+get_input_line	builtin/ft_get_input_line.c	/^void	get_input_line(struct s_node *node, int is_in_pipe)$/;"	f
+get_length	ft_mylibft/printf/ft_printf_utils.c	/^int	get_length(int base, size_t n)$/;"	f
+get_near_type_node	parse/pre_astree.c	/^struct s_node	*get_near_type_node(struct s_node *node, int type)$/;"	f
+get_next_line	ft_mylibft/gnl/get_next_line.c	/^char	*get_next_line(int fd)$/;"	f
+get_redir_pipe	parse/parse_cmd.c	/^static char	*get_redir_pipe(char **line)$/;"	f	file:
+get_substr_cnt	ft_mylibft/libft/ft_split.c	/^static size_t	get_substr_cnt(char	*s_cpy, char c)$/;"	f	file:
+get_tokens	parse/get_tokens.c	/^int	get_tokens(char *cmd, int ret, size_t idx)$/;"	f
+get_tokens_other	parse/get_tokens.c	/^static void	get_tokens_other(struct s_node **trees, size_t len)$/;"	f	file:
+get_tree	parse/do_cmds.c	/^struct s_node	*get_tree(char *cmd)$/;"	f
+get_type	parse/do_cmds.c	/^static char	get_type(char *line)$/;"	f	file:
+here_doc	parse/astree.h	/^	char			*here_doc; \/\/$/;"	m	struct:s_node
+home_option	builtin/ft_cd.c	/^static int	home_option(char **s)$/;"	f	file:
+idx	ft_mylibft/gnl/get_next_line.h	/^	int					idx;$/;"	m	struct:s_fd_list
+init_envp	ft_envp.c	/^int	init_envp(void)$/;"	f
+is_redirect_after	builtin/ft_pipe.c	/^static int	is_redirect_after(struct s_node *node)$/;"	f	file:
+left	parse/astree.h	/^	struct s_node	*left;$/;"	m	struct:s_node	typeref:struct:s_node::s_node
+line	parse/astree.h	/^	char			*line; \/\/ ls -al $/;"	m	struct:s_node
+line_env_expender	builtin/ft_quoteparse2.c	/^char	*line_env_expender(char *s)$/;"	f
+main	ft_main.c	/^int	main(void)$/;"	f
+make_envlist	builtin/ft_env.c	/^static int	make_envlist(t_list **envlist)$/;"	f	file:
+make_next_string	ft_mylibft/gnl/get_next_line.c	/^static char	*make_next_string(t_fd_list *node, t_fd_list **lst)$/;"	f	file:
+make_pipe	builtin/ft_pipe.c	/^int	make_pipe(struct s_node *node)$/;"	f
+make_redirection	builtin/ft_make_redirection.c	/^int	make_redirection(char **s, char **node_line, int here)$/;"	f
+make_target	builtin/ft_export.c	/^static char	*make_target(char *s)$/;"	f	file:
+map_substr	ft_mylibft/libft/ft_split.c	/^static char	**map_substr(char *s_cpy, size_t ret_cnt, size_t s_len)$/;"	f	file:
+next	ft_mylibft/gnl/get_next_line.h	/^	struct s_fd_list	*next;$/;"	m	struct:s_fd_list	typeref:struct:s_fd_list::s_fd_list
+next	ft_mylibft/libft/ft_libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+non_fork_execve	builtin/ft_fork_execve.c	/^int	non_fork_execve(char **parsed)$/;"	f
+option_check	builtin/ft_cd.c	/^static int	option_check(char **s)$/;"	f	file:
+parent	parse/astree.h	/^	struct s_node	*parent;$/;"	m	struct:s_node	typeref:struct:s_node::s_node
+parse_argument	ft_mylibft/printf/ft_printf_main.c	/^static int	parse_argument(char *c, va_list *vl, int *argu_len, int fd)$/;"	f	file:
+parse_cmd	parse/parse_cmd.c	/^int	parse_cmd(char **tokens, char *cmd, int *nr_tokens)$/;"	f
+parse_flag1	ft_mylibft/printf/ft_printf_parse.c	/^int	parse_flag1(char **c, int *argu_len)$/;"	f
+parse_flag2	ft_mylibft/printf/ft_printf_parse.c	/^int	parse_flag2(char **c, int *width, va_list *vl, int *argu_len)$/;"	f
+parse_precision	ft_mylibft/printf/ft_printf_parse.c	/^int	parse_precision(char **c, int *precision, va_list *vl, int *argu_len)$/;"	f
+parse_string	ft_mylibft/printf/ft_printf_main.c	/^static int	parse_string(char **cur, va_list *vl, int fd)$/;"	f	file:
+parse_tokens	parse/parse_tokens.c	/^char	**parse_tokens(char *_line)$/;"	f
+parse_width	ft_mylibft/printf/ft_printf_parse.c	/^static void	parse_width(char **c, int *width, va_list *vl, int *argu_len)$/;"	f	file:
+pre_search_tree	parse/pre_astree.c	/^void	pre_search_tree(struct s_node *node, int *ret)$/;"	f
+print_all_env	builtin/ft_builtin_utils.c	/^int	print_all_env(void)$/;"	f
+print_char	ft_mylibft/printf/ft_printf_print.c	/^int	print_char(int flag, int width, va_list *vl)$/;"	f
+print_dec	ft_mylibft/printf/ft_printf_print.c	/^int	print_dec(int flag, int width, int precision, va_list *vl)$/;"	f
+print_error_tokens	parse/parse_tokens.c	/^static int	print_error_tokens(char **tokens, size_t idx)$/;"	f	file:
+print_hex	ft_mylibft/printf/ft_printf_print.c	/^int	print_hex(int flag, int width, int precision, va_list *vl)$/;"	f
+print_pointer	ft_mylibft/printf/ft_printf_print.c	/^int	print_pointer(int flag, int width, va_list *vl)$/;"	f
+print_string	ft_mylibft/printf/ft_printf_print.c	/^int	print_string(int flag, int width, int precision, va_list *vl)$/;"	f
+processing	builtin/ft_quoteparse2.c	/^static char	*processing(char *s)$/;"	f	file:
+processing_concat	builtin/ft_quoteparse2.c	/^static char	*processing_concat(char *s, t_parser *st, int env, int wild)$/;"	f	file:
+pwd	builtin/ft_pwd.c	/^int	pwd(char **s)$/;"	f
+quote_parser	builtin/ft_quoteparse2.c	/^char	**quote_parser(char *str)$/;"	f
+read_next_string	ft_mylibft/gnl/get_next_line.c	/^static char	*read_next_string(t_fd_list *node, t_fd_list **lst)$/;"	f	file:
+redirect_status	builtin/ft_builtin_utils.c	/^int	redirect_status(int cmd)$/;"	f
+remove_parentheses	parse/parse_parn.c	/^char	*remove_parentheses(char *line)$/;"	f
+reorder_parsed	builtin/ft_reorder_parsed.c	/^int	reorder_parsed(char ***parsed)$/;"	f
+replace_parnthese	parse/parse_parn.c	/^static int	replace_parnthese(int *stack, char *line, char *cmd, int *idx)$/;"	f	file:
+replace_temporal_wildcard	builtin/ft_wildcardparse.c	/^int	replace_temporal_wildcard(char *tmp)$/;"	f
+replace_wildcard	builtin/ft_wildcardparse.c	/^static char	*replace_wildcard(int idx, char *str)$/;"	f	file:
+ret	builtin/ft_builtin_header.h	/^	char	*ret;$/;"	m	struct:s_get_env
+ret	builtin/ft_builtin_header.h	/^	char	*ret;$/;"	m	struct:s_parser
+return_value	parse/parse_parn.c	/^static char	*return_value(char *line, int *stack, int is_gal)$/;"	f	file:
+right	parse/astree.h	/^	struct s_node	*right;$/;"	m	struct:s_node	typeref:struct:s_node::s_node
+root	parse/astree.h	/^	struct s_node	*root;$/;"	m	struct:s_node	typeref:struct:s_node::s_node
+s	builtin/ft_builtin_header.h	/^	int		s;$/;"	m	struct:s_parser
+s_fd_list	ft_mylibft/gnl/get_next_line.h	/^typedef struct s_fd_list$/;"	s
+s_get_env	builtin/ft_builtin_header.h	/^typedef struct s_get_env$/;"	s
+s_list	ft_mylibft/libft/ft_libft.h	/^typedef struct s_list$/;"	s
+s_node	parse/astree.h	/^struct s_node{$/;"	s
+s_parser	builtin/ft_builtin_header.h	/^typedef struct s_parser$/;"	s
+search_tree	parse/astree.c	/^void	search_tree(struct s_node *node, int *is_in_pipe, int *ret)$/;"	f
+select_builtin_func	builtin/ft_executer.c	/^static void	select_builtin_func(char *s, int (**func)(char **))$/;"	f	file:
+set_signal	ft_signal.c	/^void	set_signal(void)$/;"	f
+show_prompt	ft_main.c	/^static int	show_prompt(char *__cmd)$/;"	f	file:
+signal_handler	ft_signal.c	/^static void	signal_handler(int signo)$/;"	f	file:
+status	builtin/ft_builtin_header.h	/^	int		status;$/;"	m	struct:s_parser
+std_inout	parse/astree.h	/^	int				std_inout[2];$/;"	m	struct:s_node
+string	ft_mylibft/gnl/get_next_line.h	/^	char				*string;$/;"	m	struct:s_fd_list
+string_concatnation	builtin/ft_quoteparse1.c	/^static char	*string_concatnation(char *str, t_parser *st, int env)$/;"	f	file:
+t_fd_list	ft_mylibft/gnl/get_next_line.h	/^}t_fd_list;$/;"	t	typeref:struct:s_fd_list
+t_get_env	builtin/ft_builtin_header.h	/^}t_get_env;$/;"	t	typeref:struct:s_get_env
+t_list	ft_mylibft/libft/ft_libft.h	/^}t_list;$/;"	t	typeref:struct:s_list
+t_parser	builtin/ft_builtin_header.h	/^}t_parser;$/;"	t	typeref:struct:s_parser
+target	builtin/ft_builtin_header.h	/^	char	*target;$/;"	m	struct:s_get_env
+tmp	builtin/ft_builtin_header.h	/^	char	*tmp;$/;"	m	struct:s_get_env
+type	parse/astree.h	/^	char			type; \/\/$/;"	m	struct:s_node
+uname	Makefile	/^uname := $(shell uname -p)$/;"	m
+unset	builtin/ft_unset.c	/^int	unset(char **s)$/;"	f
+unset_target	builtin/ft_export.c	/^static int	unset_target(char *target)$/;"	f	file:
+wildcard_parser	builtin/ft_wildcardparse.c	/^int	wildcard_parser(char ***parsed)$/;"	f
+write_argument	ft_mylibft/printf/ft_printf_write.c	/^static int	write_argument(int flag, char *str, int width)$/;"	f	file:
+write_env	builtin/ft_unset.c	/^static int	write_env(t_list *envlist, int fd, char *target)$/;"	f	file:
+write_result	ft_mylibft/printf/ft_printf_write.c	/^int	write_result(int flag, char *str, int width, int slen)$/;"	f

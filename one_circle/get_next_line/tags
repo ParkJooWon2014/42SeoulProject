@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GET_NEXT_LINE_BONUS_H	get_next_line_bonus.h	/^# define GET_NEXT_LINE_BONUS_H$/;"	d
+GET_NEXT_LINE_H	get_next_line.h	/^# define GET_NEXT_LINE_H$/;"	d
+ft_get_next_line	get_next_line.c	/^static char	*ft_get_next_line(char **line)$/;"	f	file:
+ft_get_next_line	get_next_line_bonus.c	/^static char	*ft_get_next_line(char **line)$/;"	f	file:
+ft_memcpy	get_next_line_utils.c	/^void	*ft_memcpy(void *dst, const void *src, size_t n)$/;"	f
+ft_memcpy	get_next_line_utils_bonus.c	/^void	*ft_memcpy(void *dst, const void *src, size_t n)$/;"	f
+ft_read_file	get_next_line.c	/^static char	*ft_read_file(int fd, char **back_up, char *buffer)$/;"	f	file:
+ft_read_file	get_next_line_bonus.c	/^static char	*ft_read_file(int fd, char **back_up, char *buffer)$/;"	f	file:
+ft_strchr	get_next_line_utils.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strchr	get_next_line_utils_bonus.c	/^char	*ft_strchr(const char *s, int c)$/;"	f
+ft_strdup	get_next_line.c	/^char	*ft_strdup(const char *src)$/;"	f
+ft_strdup	get_next_line_bonus.c	/^char	*ft_strdup(const char *src)$/;"	f
+ft_strjoin	get_next_line_utils.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strjoin	get_next_line_utils_bonus.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strlcpy	get_next_line.c	/^size_t	ft_strlcpy(char *dest, const char *src, size_t size)$/;"	f
+ft_strlcpy	get_next_line_bonus.c	/^size_t	ft_strlcpy(char *dest, const char *src, size_t size)$/;"	f
+ft_strlen	get_next_line_utils.c	/^size_t	ft_strlen(const char *str)$/;"	f
+ft_strlen	get_next_line_utils_bonus.c	/^size_t	ft_strlen(const char *str)$/;"	f
+ft_substr	get_next_line_utils.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_substr	get_next_line_utils_bonus.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+get_next_line	get_next_line.c	/^char	*get_next_line(int fd)$/;"	f
+get_next_line	get_next_line_bonus.c	/^char	*get_next_line(int fd)$/;"	f

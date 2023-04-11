@@ -1,0 +1,74 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADR	Makefile	/^ADR = .\/src\/$/;"	m
+BONUS	Makefile	/^BONUS= $(NAME)$/;"	m
+CC	Makefile	/^CC= cc$/;"	m
+DIE	include/philo.h	/^	DIE,$/;"	e	enum:e_type
+EAT	include/philo.h	/^	EAT,$/;"	e	enum:e_type
+FORK	include/philo.h	/^	FORK,$/;"	e	enum:e_type
+INIT_DIE	include/philo.h	/^	INIT_DIE,$/;"	e	enum:e_type
+NAME	Makefile	/^NAME= philo$/;"	m
+NR_MUST_EAT	include/philo.h	/^	NR_MUST_EAT,$/;"	e	enum:e_type
+NR_PHILO	include/philo.h	/^	NR_PHILO,$/;"	e	enum:e_type
+OFLAGS	Makefile	/^OFLAGS = $/;"	m
+PHILO_H	include/philo.h	/^# define PHILO_H$/;"	d
+SLEEP	include/philo.h	/^	SLEEP,$/;"	e	enum:e_type
+SRC	Makefile	/^SRC = ft_atoi.o ft_parse_input.o ft_philo_utils.o ft_tables.o main.o\\$/;"	m
+SRCS	Makefile	/^SRCS = ${addprefix ${ADR}, ${SRC}}$/;"	m
+THINK	include/philo.h	/^	THINK,$/;"	e	enum:e_type
+TIME_DIE	include/philo.h	/^	TIME_DIE,$/;"	e	enum:e_type
+TIME_EAT	include/philo.h	/^	TIME_EAT,$/;"	e	enum:e_type
+TIME_SLEEP	include/philo.h	/^	TIME_SLEEP,$/;"	e	enum:e_type
+TYPES_H	include/types.h	/^# define TYPES_H$/;"	d
+__ft_init_table	src/ft_tables.c	/^int	__ft_init_table(struct s_table *t)$/;"	f
+__isspace	src/ft_atoi.c	/^static int	__isspace(char c)$/;"	f	file:
+alive	include/philo.h	/^	volatile bool		alive;$/;"	m	struct:s_table
+cond	include/philo.h	/^	int					cond[5];$/;"	m	struct:s_table
+e_type	include/philo.h	/^enum e_type$/;"	g
+eat_lock	include/philo.h	/^	pthread_mutex_t		eat_lock;$/;"	m	struct:s_table
+forks	include/philo.h	/^	pthread_mutex_t		*forks;$/;"	m	struct:s_table
+ft_atoi	src/ft_atoi.c	/^int	ft_atoi(const char *tmp, char *check)$/;"	f
+ft_free_philo	src/ft_free.c	/^void	ft_free_philo(struct s_philo *p)$/;"	f
+ft_free_table	src/ft_free.c	/^void	ft_free_table(struct s_table *t)$/;"	f
+ft_init_philo	src/ft_tables.c	/^void	ft_init_philo(struct s_philo *p, int idx, struct s_table *info)$/;"	f
+ft_init_table	src/ft_tables.c	/^int	ft_init_table(struct s_table **table, int ac, char *av[])$/;"	f
+ft_parse_input	src/ft_parse_input.c	/^int	ft_parse_input(int ac, char *lines[], int *cond)$/;"	f
+ft_philo_add_nr_eat	src/ft_philo_lock.c	/^void	ft_philo_add_nr_eat(struct s_philo *p)$/;"	f
+ft_philo_is_alive	src/ft_philo_lock.c	/^bool	ft_philo_is_alive(struct s_philo *p)$/;"	f
+ft_philo_is_full	src/ft_philo_lock.c	/^int	ft_philo_is_full(struct s_philo *p)$/;"	f
+ft_philo_make_dead	src/ft_philo_lock.c	/^void	ft_philo_make_dead(struct s_philo *p)$/;"	f
+ft_philo_pick_fork	src/ft_philo_utils.c	/^int	ft_philo_pick_fork(struct s_philo *p)$/;"	f
+ft_philo_timecheck	src/philo.c	/^int	ft_philo_timecheck(struct s_philo *p)$/;"	f
+ft_philo_usleep	src/ft_philo_utils.c	/^int	ft_philo_usleep(struct s_philo *p, long long ms)$/;"	f
+ft_philo_wait_guard	src/ft_philo_utils.c	/^void	ft_philo_wait_guard(struct s_philo *p)$/;"	f
+get_time	src/ft_philo_utils.c	/^long long	get_time(void)$/;"	f
+guard	include/philo.h	/^	pthread_mutex_t		guard;$/;"	m	struct:s_table
+idx	include/philo.h	/^	int				idx;$/;"	m	struct:s_philo
+info	include/philo.h	/^	struct s_table	*info;$/;"	m	struct:s_philo	typeref:struct:s_philo::s_table
+is_in_range	src/ft_atoi.c	/^static void	is_in_range(long num, char is_minus, char *check)$/;"	f	file:
+is_must_eat	include/philo.h	/^	bool				is_must_eat;$/;"	m	struct:s_table
+l_fork	include/philo.h	/^	pthread_mutex_t	*l_fork;$/;"	m	struct:s_philo
+lock	include/philo.h	/^	pthread_mutex_t		lock;$/;"	m	struct:s_table
+main	src/main.c	/^int	main(int ac, char *av[])$/;"	f
+nr_guard	include/philo.h	/^	int					nr_guard;$/;"	m	struct:s_table
+nr_least_eat	include/philo.h	/^	int					nr_least_eat;$/;"	m	struct:s_table
+nr_to_eat	include/philo.h	/^	int				nr_to_eat;$/;"	m	struct:s_philo
+nr_wake	include/philo.h	/^	int					nr_wake;$/;"	m	struct:s_table
+philo_do	src/philo.c	/^void	*philo_do(void *arg)$/;"	f
+philo_eat	src/philo.c	/^static int	philo_eat(struct s_philo *p)$/;"	f	file:
+philo_sleep	src/philo.c	/^static int	philo_sleep(struct s_philo *p)$/;"	f	file:
+philo_think	src/philo.c	/^static void	philo_think(struct s_philo *p)$/;"	f	file:
+print_lock	include/philo.h	/^	pthread_mutex_t		*print_lock;$/;"	m	struct:s_table
+prv_eat	include/philo.h	/^	long long		prv_eat;$/;"	m	struct:s_philo
+pthread_create_philo	src/main.c	/^static void	pthread_create_philo(struct s_philo *p)$/;"	f	file:
+pthread_join_philo	src/main.c	/^static void	pthread_join_philo(struct s_philo *p)$/;"	f	file:
+r_fork	include/philo.h	/^	pthread_mutex_t	*r_fork;$/;"	m	struct:s_philo
+s_philo	include/philo.h	/^struct s_philo$/;"	s
+s_table	include/philo.h	/^struct s_table$/;"	s
+shout_to_people	src/ft_philo_utils.c	/^void	shout_to_people(struct s_philo *p, int type)$/;"	f
+thread	include/philo.h	/^	pthread_t		thread;$/;"	m	struct:s_philo
+wake_time	include/philo.h	/^	long long		wake_time;$/;"	m	struct:s_philo

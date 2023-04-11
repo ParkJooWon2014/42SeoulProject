@@ -1,0 +1,74 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADR	Makefile	/^ADR = .\/src\/$/;"	m
+BONUS	Makefile	/^BONUS= $(NAME)$/;"	m
+B_SRC	Makefile	/^B_SRC = ft_atoi.o ft_parse_input.o ft_philo_utils.o ft_tables.o main.o\\$/;"	m
+CC	Makefile	/^CC= cc$/;"	m
+DIE	philo.h	/^	DIE,$/;"	e	enum:e_type
+EAT	philo.h	/^	EAT,$/;"	e	enum:e_type
+FORK	philo.h	/^	FORK,$/;"	e	enum:e_type
+FT_SPINLOCK_H	ft_spinlock.h	/^# define FT_SPINLOCK_H$/;"	d
+NAME	Makefile	/^NAME= philo$/;"	m
+NR_MUST_EAT	philo.h	/^	NR_MUST_EAT,$/;"	e	enum:e_type
+NR_PHILO	philo.h	/^	NR_PHILO,$/;"	e	enum:e_type
+OFLAGS	Makefile	/^OFLAGS = $/;"	m
+PHILO_H	philo.h	/^# define PHILO_H$/;"	d
+SLEEP	philo.h	/^	SLEEP,$/;"	e	enum:e_type
+SRC	Makefile	/^SRC = ft_atoi.o ft_parse_input.o ft_philo_utils.o ft_tables.o main.o\\$/;"	m
+THINK	philo.h	/^	THINK,$/;"	e	enum:e_type
+TIME_DIE	philo.h	/^	TIME_DIE,$/;"	e	enum:e_type
+TIME_EAT	philo.h	/^	TIME_EAT,$/;"	e	enum:e_type
+TIME_SLEEP	philo.h	/^	TIME_SLEEP,$/;"	e	enum:e_type
+TYPES_H	types.h	/^# define TYPES_H$/;"	d
+__ft_init_table	ft_tables.c	/^int	__ft_init_table(struct s_table *t)$/;"	f
+__isspace	ft_atoi.c	/^static int	__isspace(char c)$/;"	f	file:
+access	philo.h	/^	pthread_mutex_t		access;$/;"	m	struct:s_table
+alive	philo.h	/^	bool				alive;$/;"	m	struct:s_table
+compare_and_swap	ft_spinlock.c	/^static int	compare_and_swap(struct s_spinlock *lock, int exp, int new)$/;"	f	file:
+cond	philo.h	/^	int					cond[5];$/;"	m	struct:s_table
+e_type	philo.h	/^enum e_type$/;"	g
+forks	philo.h	/^	pthread_mutex_t		*forks;$/;"	m	struct:s_table
+ft_atoi	ft_atoi.c	/^int	ft_atoi(const char *tmp, char *check)$/;"	f
+ft_free_philo	ft_free.c	/^void	ft_free_philo(struct s_philo *p)$/;"	f
+ft_free_table	ft_free.c	/^void	ft_free_table(struct s_table *t)$/;"	f
+ft_init_philo	philo.c	/^void	ft_init_philo(struct s_philo *p, int idx, struct s_table *info)$/;"	f
+ft_init_table	ft_tables.c	/^int	ft_init_table(struct s_table **table, int ac, char *av[])$/;"	f
+ft_parse_input	ft_parse_input.c	/^int	ft_parse_input(int ac, char *lines[], int *cond)$/;"	f
+ft_philo_is_alive	ft_philo_lock.c	/^bool	ft_philo_is_alive(struct s_philo *p)$/;"	f
+ft_philo_make_dead	ft_philo_lock.c	/^void	ft_philo_make_dead(struct s_philo *p)$/;"	f
+ft_philo_pick_fork	ft_philo_utils.c	/^int	ft_philo_pick_fork(struct s_philo *p)$/;"	f
+ft_philo_timecheck	ft_philo_utils.c	/^int	ft_philo_timecheck(struct s_philo *p)$/;"	f
+ft_philo_usleep	ft_philo_utils.c	/^void	ft_philo_usleep(struct s_philo *p, long long ms)$/;"	f
+get_time	ft_philo_utils.c	/^long long	get_time(void)$/;"	f
+idx	philo.h	/^	int				idx;$/;"	m	struct:s_philo
+info	philo.h	/^	struct s_table	*info;$/;"	m	struct:s_philo	typeref:struct:s_philo::s_table
+init_lock	ft_spinlock.c	/^void	init_lock(struct s_spinlock *lock)$/;"	f
+is_in_range	ft_atoi.c	/^static void	is_in_range(long num, char is_minus, char *check)$/;"	f	file:
+is_must_eat	philo.h	/^	bool				is_must_eat;$/;"	m	struct:s_table
+l_fork	philo.h	/^	pthread_mutex_t	*l_fork;$/;"	m	struct:s_philo
+lock	ft_spinlock.h	/^	volatile int	lock;$/;"	m	struct:s_spinlock
+lock	philo.h	/^	struct s_spinlock	lock;$/;"	m	struct:s_table	typeref:struct:s_table::s_spinlock
+main	main.c	/^int	main(int ac, char *av[])$/;"	f
+nr_to_eat	philo.h	/^	int				nr_to_eat;$/;"	m	struct:s_philo
+nr_wake	philo.h	/^	int					nr_wake;$/;"	m	struct:s_table
+philo_do	philo.c	/^void	*philo_do(void *arg)$/;"	f
+philo_eat	philo.c	/^static int	philo_eat(struct s_philo *p)$/;"	f	file:
+philo_sleep	philo.c	/^static void	philo_sleep(struct s_philo *p)$/;"	f	file:
+philo_think	philo.c	/^static void	philo_think(struct s_philo *p)$/;"	f	file:
+print_lock	philo.h	/^	pthread_mutex_t		*print_lock;$/;"	m	struct:s_table
+prv_eat	philo.h	/^	long long		prv_eat;$/;"	m	struct:s_philo
+pthread_create_philo	main.c	/^static void	pthread_create_philo(struct s_philo *p)$/;"	f	file:
+pthread_join_philo	main.c	/^static void	pthread_join_philo(struct s_philo *p)$/;"	f	file:
+r_fork	philo.h	/^	pthread_mutex_t	*r_fork;$/;"	m	struct:s_philo
+s_philo	philo.h	/^struct s_philo$/;"	s
+s_spinlock	ft_spinlock.h	/^struct s_spinlock$/;"	s
+s_table	philo.h	/^struct s_table$/;"	s
+shout_to_people	ft_philo_utils.c	/^void	shout_to_people(struct s_philo *p, int type)$/;"	f
+spin_lock	ft_spinlock.c	/^int	spin_lock(struct s_spinlock *lock)$/;"	f
+spin_unlock	ft_spinlock.c	/^int	spin_unlock(struct s_spinlock *lock)$/;"	f
+thread	philo.h	/^	pthread_t		thread;$/;"	m	struct:s_philo
+wake_time	philo.h	/^	long long		wake_time;$/;"	m	struct:s_philo
